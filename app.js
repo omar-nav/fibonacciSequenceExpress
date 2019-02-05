@@ -8,7 +8,9 @@ const bodyParser = require("body-parser")
 
 const index = require("./routes/index")
 // const fibonacci = require("./routes/fibonacci")
-const fibonacci = require("./routes/fibonacci-async1")
+// const fibonacci = require("./routes/fibonacci-async1")
+// const fibonacci = require("./routes/fibonacci-await")
+const fibonacci = require("./routes/fibonacci-rest")
 
 const app = express()
 
