@@ -5,7 +5,7 @@
   "scripts": {
     "start": "DEBUG=fibonacci:* node ./bin/www",
     "startrest": "DEBUG=fibonacci:* SERVERPORT=3002 node ./bin/www",
-    "server": "DEBUG=fibonacci:* SERVERPORT=3002 node ./fiboserver",
+    "server": "DEBUG=fibonacci:* SERVERPORT=3002 node ./fiboserver --max_old_space_size 5000",
     "client": "DEBUG=fibonacci:* SERVERPORT=3002 node ./fiboclient"
   },
   "dependencies": {
