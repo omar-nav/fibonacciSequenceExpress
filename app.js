@@ -7,7 +7,8 @@ const cookieParser = require("cookie-parser")
 const bodyParser = require("body-parser")
 
 const index = require("./routes/index")
-const fibonacci = require("./routes/fibonacci")
+// const fibonacci = require("./routes/fibonacci")
+const fibonacci = require("./routes/fibonacci-async1")
 
 const app = express()
 
