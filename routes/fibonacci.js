@@ -6,7 +6,7 @@ router.get("/", function(req, res, next) {
   if (req.query.fibonum) {
     // calculate directly in this server
     res.render("fibonacci", {
-      title: "Caluclate Fibonacci numbers",
+      title: "Calculate Fibonacci numbers",
       fibonum: req.query.fibonum,
       fiboval: math.fibonacci(req.query.fibonum)
     })
