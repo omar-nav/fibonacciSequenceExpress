@@ -1,7 +1,7 @@
 const math = require("./math")
 const util = require("util")
 
-for (var num = 1; num < 80; num++) {
+for (var num = 1; num < 180; num++) {
   let now = new Date().toISOString()
-  console.log(`${now} Fibonacci for ${num} = ${math.fibonacci(num)}`)
+  console.log(`${now} Fibonacci for ${num} = ${math.fibonacciLoop(num)}`)
 }
